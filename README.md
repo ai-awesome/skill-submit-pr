@@ -8,23 +8,14 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that autom
 
 ## Installation
 
-Clone this repository:
+### Already using [ai-awesome/.claude](https://github.com/ai-awesome/.claude)?
+
+This skill is included as a submodule — no extra setup needed.
+
+### Standalone
 
 ```sh
-git clone https://github.com/ai-awesome/skill-submit-pr.git
-```
-
-Then symlink the skill into your Claude global config directory:
-
-```sh
-mkdir -p ~/.claude/skills/submit-pr
-ln -sf "$(pwd)/skill-submit-pr/SKILL.md" ~/.claude/skills/submit-pr/SKILL.md
-```
-
-Or add directly as a submodule in your dotfiles:
-
-```sh
-git submodule add https://github.com/ai-awesome/skill-submit-pr.git ~/.claude/skills/submit-pr
+git clone https://github.com/ai-awesome/skill-submit-pr.git ~/.claude/skills/submit-pr
 ```
 
 ## Customization
